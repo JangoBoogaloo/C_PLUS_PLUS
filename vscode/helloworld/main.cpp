@@ -1,7 +1,10 @@
-#include<iostream>
+#include <iostream>
 
 int main(int argc, char *argv[])
 {
-    std::cout << "Hello World" << std::endl;
+    int favourite = 0;
+    std::cout << "Enter your favorite number between 1 and 100: ";
+    std::cin >> favourite;
+    std::cout << "Your number is: " << favourite << std::endl;
     return 0;
 }
